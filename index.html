@@ -26,7 +26,7 @@
           <ul class="site-nav-list">
             <li class="item"><a href="./index.html" class="nav-studio">Студія</a></li>
             <li class="item"><a href="./portfolio.html" class="nav-page">Портфоліо</a></li>
-            <li class="item"><a href="Контакти" class="nav-page">Контакти</a></li>
+            <li class="item"><a href="#" class="nav-page">Контакти</a></li>
           </ul>
         </nav>
         <ul class="container-contacts">
@@ -57,7 +57,7 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button type="button" class="main-button">Замовити послугу</button>
+          <button type="button" class="main-button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!--features-->
@@ -378,5 +378,13 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close>close</button>
+        <h2>Залиште свої дані, ми вам передзвонимо</h2>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
