@@ -648,13 +648,14 @@ img {
   transform: translate(-50%, -50%) scale(0.9);
 }
 .modal-button {
+  position: absolute;
   width: 30px;
   height: 30px;
   background-color: var(--background-color-primary);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  margin-top: 8px;
-  margin-left: 490px;
+  top: 8px;
+  right: 8px;
 }
 .modal-close {
   display: flex;
