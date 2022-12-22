@@ -346,16 +346,19 @@ img {
   align-items: center;
   width: 100%;
   height: 100%;
-  fill: var(--icon-color);
+  color: var(--icon-color);
   border-radius: 50%;
-  transition-property: background-color, fill;
+  transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link:hover,
 .team-link:focus {
   background-color: var(--color-akcent);
-  fill: var(--background-color-primary);
+  color: var(--background-color-primary);
+}
+.team-socials-link .icons {
+  fill: currentColor;
 }
 
 /* customers */
@@ -375,7 +378,6 @@ img {
   align-items: center;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  fill: var(--icon-color);
   width: 100%;
   height: 100%;
   color: var(--icon-color);
@@ -391,7 +393,6 @@ img {
 .icon-customers {
   fill: currentColor;
 }
-
 
 /* portfolio */
 .header-portfolio {
